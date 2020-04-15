@@ -40,12 +40,12 @@ class ElementHandler {
       case ("h1"):  
         if (element.getAttribute("id") === this.id) 
           element.setInnerContent(`Eddie's Challenge #${this.variant}`)
-      break;
+        break;
 
       case ("p"): 
         if (element.getAttribute("id") === this.id)
           element.setInnerContent(`This was variant ${this.variant} of my challenge`)
-      break;
+        break;
 
       case ("a"): 
         let link = this.variant === '1' ? "https://github.com/elopez00" // if the variant is equal to 1, it will redirect to my github
@@ -59,7 +59,7 @@ class ElementHandler {
           element.setAttribute("href", link);
           element.setInnerContent(text);
         }
-      break;
+        break;
     }
   }
 }
