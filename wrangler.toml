@@ -1,0 +1,6 @@
+name = "eddie-cloudflare-challenge"
+type = "webpack"
+account_id = "46acca0bd1f92975869f56cfcc35a9db"
+workers_dev = true
+route = ""
+zone_id = ""
